@@ -1,0 +1,6 @@
+com\ekrutes\id\App.class
+com\ekrutes\id\KafkaProducerConfig.class
+com\ekrutes\id\models\Service1.class
+com\ekrutes\id\Controller.class
+com\ekrutes\id\KafkaConsumerConfig.class
+com\ekrutes\id\utils\Request.class

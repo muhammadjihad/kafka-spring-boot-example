@@ -22,7 +22,7 @@ public class KafkaConsumerConfig{
     @ConditionalOnMissingBean(ConsumerFactory.class)
     public ConsumerFactory<Object,Object> consumerFactory(){
         Map<String,Object> props=new HashMap<>();
-        props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "0.0.0.0:9092");
+        props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "172.18.0.3:9092");
         props.put(ConsumerConfig.GROUP_ID_CONFIG, "ekrutes_microservices");
         props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
         props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
